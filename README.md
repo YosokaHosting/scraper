@@ -1,26 +1,24 @@
-<h1 align="center">YosokaNesia <img src="https://user-images.githubusercontent.com/1303154/88677602-1635ba80-d120-11ea-84d8-d263ba5fc3c0.gif" width="40px" alt=""><br></h1>
+<h1 align="center">YosokaHosting <img src="https://user-images.githubusercontent.com/1303154/88677602-1635ba80-d120-11ea-84d8-d263ba5fc3c0.gif" width="40px" alt=""><br></h1>
 <p align="center">
 <img src="https://i.ibb.co/g9qGSTm/Screenshot-20230308-211801-1.jpg" />
 </p>
 
 <p align="center">
 
-- 👼 My name is Zero YT7
+- 🐻 I'm YosokaHosting / RidhoRomadhon
+- 😼 I'm Progamer / newbiee
+- 👻 Year 19
 
-- 🗣️ I am 19 years old 
-
-- 🔭 I am Not programmer
- 
-- 😎 I am like Wibu
+-🐻 I'm No Girl 🐻-
 </p>
 
 ------
 
 ## ```FOLLOW ALL SOSIALMEDIA ME```
 <p align="center">
-<a href="https://instagram.com/@yt_yosokanesiaa"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/> 
+<a href="https://instagram.com/@yt_YosokaHostinga"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/> 
 <a href="https://wa.me/6285891734201"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-<a href="https://youtube.com/@yosokanesia"><img src="https://img.shields.io/badge/YouTube Zero YT7-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://youtube.com/ZeroYT7" /><br>
+<a href="https://youtube.com/@YosokaHosting"><img src="https://img.shields.io/badge/YouTube Zero YT7-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://youtube.com/ZeroYT7" /><br>
 </p>
 
 ## ```DONASI```
@@ -31,11 +29,11 @@
 
 Install package
 ```sh
-npm i @YosokaNesia/scraper
+npm i @YosokaHosting/scraper
 ```
 Install latest version from github (not recommended)
 ```sh
-npm i github:YosokaNesia/scraper
+npm i github:YosokaHosting/scraper
 ```
 
 ## What's updated?
@@ -50,9 +48,9 @@ npm i github:YosokaNesia/scraper
 ## Example use
 ```js
 // ESM 
-import * as scraper from '@YosokaNesia/scraper'
+import * as scraper from '@YosokaHosting/scraper'
 // CJS
-const scraper = require('@YosokaNesia/scraper')
+const scraper = require('@YosokaHosting/scraper')
 ```
 ### Instagram Downloader
 ```js
@@ -62,7 +60,7 @@ import {
     instagramdlv2, 
     instagramStory,
     instagramStoryv2
-} from '@YosokaNesia/scraper'
+} from '@YosokaHosting/scraper'
 const url = 'https://www.instagram.com/reel/CXK49yFLtJ_/?utm_source=ig_web_copy_link'
 instagramdl(url).then(console.log).catch(console.error)
 instagramdlv2(url).then(console.log).catch(console.error)
@@ -90,7 +88,7 @@ console.log(story)
 import { 
     youtubedl,
     youtubedlv2 
-} from '@YosokaNesia/scraper'
+} from '@YosokaHosting/scraper'
 const url = 'https://youtu.be/iik25wqIuFo'
 youtubedl(url).catch(_ => youtubedlv2(url)).then(({ video }) => {
     video['240p'].download().then(console.log).catch(console.error)
@@ -112,7 +110,7 @@ console.log(dl_url)
 import { 
     tiktokdl,
     tiktokdlv2 
-} from '@YosokaNesia/scraper'
+} from '@YosokaHosting/scraper'
 // Tiktok downloader v1
 const url = 'https://www.tiktok.com/@tiktok/video/6844446901010982300'
 tiktokdl(url).then(console.log).catch(console.error)
@@ -133,7 +131,7 @@ import {
     aiovideodl,
     savefrom,
     snapsave
-} from '@YosokaNesia/scraper'
+} from '@YosokaHosting/scraper'
 // Facebook video downloader
 console.log(await aiovideodl('https://fb.watch/9WktuN9j-z/'))
 // Twitter video downloader
@@ -159,7 +157,7 @@ console.log(await snapsave('https://fb.watch/9WktuN9j-z/'))
 import { 
     latinToAksara,
     aksaraToLatin
-} from '@YosokaNesia/scraper'
+} from '@YosokaHosting/scraper'
 // Latin to aksara jawa
 console.log(latinToAksara('hallo rek'))
 // Aksara jawa to latin
@@ -174,7 +172,7 @@ Source: https://bennylin.github.io/transliterasijawa/
 import { 
     getZodiac,
     nomorhoki
-} from '@YosokaNesia/scraper'
+} from '@YosokaHosting/scraper'
 // Get zodiac
 console.log(getZodiac(1, 1))
 // Get nomor hoki
@@ -194,7 +192,7 @@ import {
     pinterest,
     wallpaper,
     stickerTelegram,
-} from '@YosokaNesia/scraper'
+} from '@YosokaHosting/scraper'
 const keyword = 'minecraft'
 // Google image
 console.log(await googleImage(keyword))
@@ -221,7 +219,7 @@ import {
     asmaulhusna, asmaulhusnajson,
     alquran,
     jadwalsholat, listJadwalSholat
-} from '@YosokaNesia/scraper'
+} from '@YosokaHosting/scraper'
 // Asmaul Husna
 console.log(await asmaulhusna())
 // Asmaul Husna Json
@@ -232,7 +230,7 @@ console.log(await alquran())
 console.log(await jadwalsholat('semarang'))
 ```
 - `alquran` source: https://raw.githubusercontent.com/rzkytmgr/quran-api/master/data/quran.json
-- `asmaulhusna` source: https://raw.githubusercontent.com/YosokaNesia/database/master/religi/asmaulhusna.json
+- `asmaulhusna` source: https://raw.githubusercontent.com/YosokaHosting/scraper/master/src/religions/asmaulhusna.ts
 - `jadwalsholat` use website https://www.jadwalsholat.org
 
 
@@ -242,7 +240,7 @@ console.log(await jadwalsholat('semarang'))
 import {
     tebakgambar, tebakgambarjson,
     asahotak, asahotakjson
-} from '@YosokaNesia/scraper'
+} from '@YosokaHosting/scraper'
 // Tebak gambar
 console.log(await tebakgambar())
 // Tebak gambar json
@@ -252,19 +250,19 @@ console.log(await asahotak())
 // Asahotak json
 console.log(asahotakjson) // the json will empty if you never use `asahotak()`
 ```
-- `asahotak` source: https://raw.githubusercontent.com/YosokaNesia/database/master/games/asahotak.json
-- `caklontong` source: https://raw.githubusercontent.com/YosokaNesia/database/master/games/caklontong.json
-- `family100` source: https://raw.githubusercontent.com/YosokaNesia/database/master/games/family100.json
-- `siapakahaku` source: https://raw.githubusercontent.com/YosokaNesia/database/master/games/siapakahaku.json
-- `susunkata` source: https://raw.githubusercontent.com/YosokaNesia/database/master/games/susunkata.json
-- `tebakbendera` source: https://raw.githubusercontent.com/YosokaNesia/database/master/games/tebakbendera.json
-- `tebakgambar` source: https://raw.githubusercontent.com/YosokaNesia/database/master/games/tebakgambar.json
-- `tebakkabupaten` source: https://raw.githubusercontent.com/YosokaNesia/database/master/games/tebakkabupaten.json
-- `tebakkata` source: https://raw.githubusercontent.com/YosokaNesia/database/master/games/tebakkata.json
-- `tebakkimia` source: https://raw.githubusercontent.com/YosokaNesia/database/master/games/tebakkimia.json
-- `tebaklirik` source: https://raw.githubusercontent.com/YosokaNesia/database/master/games/tebaklirik.json
-- `tebaktebakan` source: https://raw.githubusercontent.com/YosokaNesia/database/master/games/tebaktebakan.json
-- `tekateki` source: https://raw.githubusercontent.com/YosokaNesia/database/master/games/tekateki.json
+- `asahotak` source: https://raw.githubusercontent.com/YosokaHosting/scraper/master/src/games/asahotak.ts
+- `caklontong` source: https://raw.githubusercontent.com/YosokaHosting/scraper/master/src/games/caklontong.ts
+- `family100` source: https://raw.githubusercontent.com/YosokaHosting/scraper/master/src/games/family100.ts
+- `siapakahaku` source: https://raw.githubusercontent.com/YosokaHosting/scraper/master/src/games/siapakahaku.ts
+- `susunkata` source: https://raw.githubusercontent.com/YosokaHosting/scraper/master/src/games/susunkata.ts
+- `tebakbendera` source: https://raw.githubusercontent.com/YosokaHosting/scraper/master/src/games/tebakbendera.ts
+- `tebakgambar` source: https://raw.githubusercontent.com/YosokaHosting/scraper/master/src/games/tebakgambar.ts
+- `tebakkabupaten` source: https://raw.githubusercontent.com/YosokaHosting/scraper/master/src/games/tebakkabupaten.ts
+- `tebakkata` source: https://raw.githubusercontent.com/YosokaHosting/scraper/master/src/games/tebakkata.ts
+- `tebakkimia` source: https://raw.githubusercontent.com/YosokaHosting/scraper/master/src/games/tebakkimia.ts
+- `tebaklirik` source: https://raw.githubusercontent.com/YosokaHosting/scraper/master/src/games/tebaklirik.ts
+- `tebaktebakan` source: https://raw.githubusercontent.com/YosokaHosting/scraper/master/src/games/tebaktebakan.ts
+- `tekateki` source: https://raw.githubusercontent.com/YosokaHosting/scraper/master/src/games/tekateki.ts
 
 
 ### News
@@ -274,7 +272,7 @@ import {
     cnbindonesia,
     antaranews,
     kompas
-} from '@YosokaNesia/scraper'
+} from '@YosokaHosting/scraper'
 // Cnbindonesia
 console.log(await cnbindonesia())
 // Antaranews
@@ -298,7 +296,7 @@ import {
     randomUUID,
     randomBytes,
     createHash
-} from '@YosokaNesia/scraper'
+} from '@YosokaHosting/scraper'
 // To base64
 const base64 = toBase64('Hello World!!')
 console.log(base64)
@@ -321,7 +319,7 @@ console.log(createHash('sha256', 'Hello World!!'))
 import {
     bioskopNow,
     bioskop
-} from '@YosokaNesia/scraper'
+} from '@YosokaHosting/scraper'
 // Bioskop 
 console.log(await bioskop())
 // Bioskop Now
@@ -337,7 +335,7 @@ import {
     sfilemobi,
     sfilemobiSearch,
     zippyshare
-} from '@YosokaNesia/scraper'
+} from '@YosokaHosting/scraper'
 // Mediafire
 console.log(await mediafiredl('https://www.mediafire.com/file/gpeiucmm1xo6ln0/hello_world.mp4/file'))
 // Sfilemobi
@@ -356,7 +354,7 @@ console.log(await zippyshare('https://www53.zippyshare.com/v/Gajlfjd4/file.html'
 ```js
 import {
     chord
-} from '@YosokaNesia/scraper'
+} from '@YosokaHosting/scraper'
 // Chord
 console.log(await chord('Until i found you'))
 ```
