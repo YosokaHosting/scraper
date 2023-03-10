@@ -18,7 +18,7 @@
 <p align="center">
 <a href="https://instagram.com/@yt_YosokaHostinga"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/> 
 <a href="https://wa.me/6285891734201"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-<a href="https://youtube.com/@YosokaHosting"><img src="https://img.shields.io/badge/YouTube Zero YT7-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://youtube.com/ZeroYT7" /><br>
+<a href="https://youtube.com/@YosokaHosting"><img src="https://img.shields.io/badge/YouTube YosokaNesia-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://youtube.com/ZeroYT7" /><br>
 </p>
 
 ## ```DONASI```
